@@ -1,10 +1,10 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝑩𝒚 𝑻𝒆𝒂𝒎 𝑺𝒕𝒓𝒂𝒏𝒈𝒆𝒓
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝑩𝒚 𝑻𝒆𝒂𝒎 𝑷𝒓𝒐𝒇𝒆𝒔𝒔𝒐𝒓
 # 𝑨𝒍𝒍 𝑹𝒊𝒈𝒉𝒕𝒔 𝑹𝒆𝒔𝒆𝒓𝒗𝒆𝒅
 
 import re
 import traceback
-from SHUKLAUSER import app, one, two, __Version__
-from SHUKLAUSER.Helpers import page_load, inline_wrapper
+from PROFESSORUSER import app, one, two, __Version__
+from PROFESSORUSER.Helpers import page_load, inline_wrapper
 from config import HELPABLE, SUDO_USERS, EXTRA_IMG
 from pyrogram import Client, filters, __version__ as pyrover
 from pyrogram.errors import ChatWriteForbidden, UserBannedInChannel
@@ -21,7 +21,7 @@ __HELP__ = """
 def private_panel():
     buttons = [
         [
-            InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/SHIVANSH474"),
+            InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/PROFESSOR_77XX"),
         ],
         [
             InlineKeyboardButton(text="Hᴇʟᴘ Mᴇɴᴜ", callback_data="home_help"),
@@ -32,7 +32,7 @@ def private_panel():
 
 TXT = f"ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ !" 
 
-QA = "ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴛʀᴀɴɢᴇʀ sᴘᴀᴍ ᴜsᴇʀʙᴏᴛ \n\n\nᴄᴏᴘʏʀɪɢʜᴛ ʙʏ @MASTIWITHFRIENDSXD\nᴄᴏᴅᴇ ʙʏ @SHIVANSH39"
+QA = "ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴘʀᴏғᴇssᴏʀ sᴘᴀᴍ ᴜsᴇʀʙᴏᴛ \n\n\nᴄᴏᴘʏʀɪɢʜᴛ ʙʏ @PROFESSOR_77XX\nᴄᴏᴅᴇ ʙʏ @PROFESSOR_77X"
 
 HMH = f"""
 ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 sᴘᴀᴍ ᴠᴇʀsɪᴏɴ : `{__Version__}`
