@@ -6,7 +6,7 @@ from SHUKLAUSER.logging import LOGGER
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="SHUKLAUSER",
+            name="PROFESSORUSER",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
@@ -23,7 +23,7 @@ class Bot(Client):
         self.username = get_me.username
         self.mention = get_me.mention
         self.id = get_me.id
-        LOGGER("SHUKLAUSER").info(f"Started As {self.name} !")
+        LOGGER("PROFESSORUSER").info(f"Started As {self.name} !")
 
     async def stop(self):
         await super().stop()
