@@ -1,31 +1,31 @@
 import config
 from pyrogram import Client
-from SHUKLAUSER.logging import LOGGER
+from PROFESSORUSER.logging import LOGGER
 
 
 
 if config.SESSION1:
-    one = Client(name="SHUKLAUSER1", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION1), plugins=dict(root="SHUKLAUSER.Plugins"))
+    one = Client(name="PROFESSORUSER1", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION1), plugins=dict(root="SHUKLAUSER.Plugins"))
 else:
     one = None
     
 if config.SESSION2:
-    two = Client(name="SHUKLAUSER2", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION2), plugins=dict(root="SHUKLAUSER.Plugins"))
+    two = Client(name="PROFESSORUSER1", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION2), plugins=dict(root="SHUKLAUSER.Plugins"))
 else:
     two = None
     
 if config.SESSION3:
-    three = Client(name="SHUKLAUSER3", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION3), plugins=dict(root="SHUKLAUSER.Plugins"))
+    three = Client(name="PROFESSORUSER1", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION3), plugins=dict(root="SHUKLAUSER.Plugins"))
 else:
     three = None
     
 if config.SESSION4:
-    four = Client(name="SHUKLAUSER4", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION4), plugins=dict(root="SHUKLAUSER.Plugins"))
+    four = Client(name="PROFESSORUSER1", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION4), plugins=dict(root="SHUKLAUSER.Plugins"))
 else:
     four = None
 
 if config.SESSION5:
-    five = Client(name="SHUKLAUSER5", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION5), plugins=dict(root="SHUKLAUSER.Plugins"))
+    five = Client(name="PROFESSORUSER1", api_id=config.API_ID, api_hash=config.API_HASH, session_string=str(config.SESSION5), plugins=dict(root="SHUKLAUSER.Plugins"))
 else:
     five = None
     
@@ -37,13 +37,13 @@ async def userbot():
         alt1 = get_me1.id
         config.SUDO_USERS.append(alt1)
         try:
-            await one.join_chat("MASTIWITHFRIENDSXD")
-            await one.join_chat("MASTIWITHFRIENDSXD")
-            await one.join_chat("MASTIWITHFRIENDSXD")
-            await one.join_chat("MASTIWITHFRIENDSXD")
+            await one.join_chat("PROFESSOR_77XX")
+            await one.join_chat("PROFESSOR_77XX")
+            await one.join_chat("PROFESSOR_77XX")
+            await one.join_chat("PROFESSOR_77XX")
         except:
             pass
-        LOGGER("SHUKLAUSER").info("𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 !")
+        LOGGER("PROFESSORUSER").info("Pʀᴏғᴇssᴏʀ !")
 
     if config.SESSION2:
         await two.start()
@@ -51,13 +51,13 @@ async def userbot():
         alt2 = get_me2.id
         config.SUDO_USERS.append(alt2)
         try:
-            await two.join_chat("MASTIWITHFRIENDSXD")
-            await two.join_chat("MASTIWITHFRIENDSXD")
-            await two.join_chat("MASTIWITHFRIENDSXD")
-            await two.join_chat("MASTIWITHFRIENDSXD")
+            await two.join_chat("PROFESSOR_77XX")
+            await two.join_chat("PROFESSOR_77XX")
+            await two.join_chat("PROFESSOR_77XX")
+            await two.join_chat("PROFESSOR_77XX")
         except:
             pass
-        LOGGER("SHUKLAUSER").info("𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
+        LOGGER("PROFESSORUSER").info("Pʀᴏғᴇssᴏʀ !")
             
     if config.SESSION3:
         await three.start()
@@ -65,13 +65,13 @@ async def userbot():
         alt3 = get_me3.id
         config.SUDO_USERS.append(alt3)
         try:
-            await three.join_chat("MASTIWITHFRIENDSXD")
-            await three.join_chat("MASTIWITHFRIENDSXD")
-            await three.join_chat("MASTIWITHFRIENDSXD")
-            await three.join_chat("MASTIWITHFRIENDSXD")
+            await three.join_chat("PROFESSOR_77XX")
+            await three.join_chat("PROFESSOR_77XX")
+            await three.join_chat("PROFESSOR_77XX")
+            await three.join_chat("PROFESSOR_77XX")
         except:
             pass
-        LOGGER("SHUKLAUSER").info("𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
+        LOGGER("PROFESSORUSER").info("Pʀᴏғᴇssᴏʀ !")
 
     if config.SESSION4:
         await four.start()
@@ -79,13 +79,13 @@ async def userbot():
         alt4 = get_me4.id
         config.SUDO_USERS.append(alt4)
         try:
-            await four.join_chat("MASTIWITHFRIENDSXD")
-            await four.join_chat("MASTIWITHFRIENDSXD")
-            await four.join_chat("MASTIWITHFRIENDSXD")
-            await four.join_chat("MASTIWITHFRIENDSXD")
+            await four.join_chat("PROFESSOR_77XX")
+            await four.join_chat("PROFESSOR_77XX")
+            await four.join_chat("PROFESSOR_77XX")
+            await four.join_chat("PROFESSOR_77XX")
         except:
             pass
-        LOGGER("SHUKLAUSER").info(f"𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")    
+        LOGGER("PROFESSORUSER").info(f"Pʀᴏғᴇssᴏʀ !")    
 
     if config.SESSION5:
         await five.start()
@@ -93,11 +93,11 @@ async def userbot():
         alt5 = get_me5.id
         config.SUDO_USERS.append(alt5)
         try:
-            await five.join_chat("MASTIWITHFRIENDSXD")
-            await five.join_chat("MASTIWITHFRIENDSXD")
-            await five.join_chat("MASTIWITHFRIENDSXD")
-            await five.join_chat("MASTIWITHFRIENDSXD")
+            await five.join_chat("PROFESSOR_77XX")
+            await five.join_chat("PROFESSOR_77XX")
+            await five.join_chat("PROFESSOR_77XX")
+            await five.join_chat("PROFESSOR_77XX")
         except:
             pass
-        LOGGER("SHUKLAUSER").info(f"𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
+        LOGGER("PROFESSORUSER").info(f"Pʀᴏғᴇssᴏʀ !")
 
