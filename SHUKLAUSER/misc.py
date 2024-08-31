@@ -35,8 +35,8 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(config.HEROKU_API_KEY)
                 HAPP = Heroku.app(config.HEROKU_APP_NAME)
-                LOGGER("SHUKLAUSER").info("𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝗖𝗢𝗡𝗙𝗜𝗚𝗨𝗥𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬 !")
+                LOGGER("PROFESSORUSER").info("𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝗖𝗢𝗡𝗙𝗜𝗚𝗨𝗥𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬 !")
             except BaseException:
-                LOGGER("SHUKLAUSER").warning("𝗕𝗛𝗦𝗗𝗞 𝗛𝗘𝗥𝗢𝗞𝗨 𝗜𝗗 𝗦𝗔𝗛𝗜 𝗦𝗘 𝗗𝗔𝗟 𝗟𝗘!")
+                LOGGER("PROFESSORUSER").warning("𝗕𝗛𝗦𝗗𝗞 𝗛𝗘𝗥𝗢𝗞𝗨 𝗜𝗗 𝗦𝗔𝗛𝗜 𝗦𝗘 𝗗𝗔𝗟 𝗟𝗘!")
                 
                 
