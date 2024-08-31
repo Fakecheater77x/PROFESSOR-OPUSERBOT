@@ -21,9 +21,9 @@ The easiest way to deploy
 - Bot Username: `@SessionStringGeneratorRobot`
 
 ## 🌟 Support
-For any assistance or queries, join our [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/MASTIWITHFRIENDSXD).
+For any assistance or queries, join our [Pʀᴏғᴇssᴏʀ](https://t.me/PROFESSOR_77XX).
 
 🔗 **Quick Links:**
-- [GitHub Repository](https://github.com/itzshukla/STRANGER-OPUSERBOT)
+- [GitHub Repository](https://github.com/Fakecheater77x/PROFESSOR-OPUSERBOT)
 
 Enjoy deploying with ease!
