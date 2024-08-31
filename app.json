@@ -1,7 +1,7 @@
 {
-    "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓",
-    "logo": "https://telegra.ph/file/038602f34ce054644b9a9.jpg",
-    "keywords": ["telegram", "bot", "Shukla"],
+    "name": "𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓",
+    "logo": "https://telegra.ph/file/b21565ff25ed13e8e3ba6.jpg",
+    "keywords": ["telegram", "bot", "Professor"],
     "buildpacks": [{"url": "heroku/python"}],
     "env": {
         "SESSION1": {
